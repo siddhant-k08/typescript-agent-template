@@ -15,7 +15,7 @@ app.use(
 		origin: '*', // Allow any origin for development; restrict this in production
 		allowMethods: ['POST', 'GET', 'OPTIONS'],
 		allowHeaders: ['Content-Type'],
-		exposeHeaders: ['X-Session-Id'],x
+		exposeHeaders: ['X-Session-Id'],
 		maxAge: 86400, // 24 hours
 	}),
 );
